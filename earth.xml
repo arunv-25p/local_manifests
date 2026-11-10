@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
+  
+    <!-- Device -->
+    <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="LineageOS" revision="lineage-24.0" />
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-24.0" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/earth" name="android_kernel_xiaomi_earth" remote="LineageOS" revision="lineage-24.0" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/earth" name="proprietary_vendor_xiaomi_earth" remote="TheMuppets" revision="lineage-24.0" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-24.0" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-24.0" />
+</manifest>
